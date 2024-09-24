@@ -303,6 +303,18 @@ section.visible {
     flex-wrap: wrap; /* Membuat item berpindah ke baris baru */
 }
 
+@media (max-width: 768px) {
+    .social-icons {
+        gap: 10px; /* Spasi antara ikon */
+    }
+}
+
+@media (max-width: 480px) {
+    .social-icons {
+        gap: 5px; /* Spasi antara ikon */
+    }
+}
+
 .social-icon {
     display: inline-flex;
     align-items: center;
