@@ -476,6 +476,7 @@ section.visible {
 @media (max-width: 800px) {
     .about-container {
         flex-direction: column; /* Ubah ke kolom pada perangkat kecil */
+        gap: 10px;
     }
 }
 
