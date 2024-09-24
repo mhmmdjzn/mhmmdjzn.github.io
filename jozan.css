@@ -82,10 +82,27 @@ body {
 
     .nav ul {
         flex-direction: column; /* Ubah menu menjadi kolom */
+        list-style: none; /* Menghapus bullet */
+        padding: 0; /* Menghapus padding default */
+    }
+
+    .nav li {
+        border-bottom: 1px solid #000; /* Pembatas di bawah setiap item */
+    }
+    
+    .nav li:last-child {
+        border-bottom: none; /* Menghapus pembatas pada item terakhir */
     }
 
     .nav ul li {
-        margin: 10px 0; /* Jarak antar item menu */
+        margin: 0 0; /* Jarak antar item menu */
+    }
+
+    .nav a {
+        display: block; /* Membuat seluruh area item dapat diklik */
+        padding: 10px; /* Menambahkan padding untuk estetika */
+        text-decoration: none; /* Menghapus garis bawah */
+        color: #000; /* Warna teks */
     }
 }
 
