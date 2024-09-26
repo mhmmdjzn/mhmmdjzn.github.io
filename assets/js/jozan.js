@@ -97,3 +97,15 @@ function closeMenu() {
     const navMenu = document.querySelector('.nav');
     navMenu.classList.remove('active');
 }
+
+// Menghilangkan Navigasi saat klik asal //
+
+document.addEventListener('click', function(event) {
+    const navMenu = document.querySelector('.nav');
+    const hamburger = document.querySelector('.hamburger'); // tombol hamburger atau elemen untuk toggle
+
+    // Mengecek apakah klik terjadi di luar navMenu dan hamburger
+    if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+        closeMenu();
+    }
+});
