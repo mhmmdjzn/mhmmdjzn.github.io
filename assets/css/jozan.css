@@ -645,6 +645,7 @@ section.visible {
     gap: 10px;
     max-width: 1200px;
     margin: auto;
+    padding-top: 10px;
 }
 
 .gallery-item {
