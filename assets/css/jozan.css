@@ -648,6 +648,12 @@ section.visible {
     padding-top: 10px;
 }
 
+@media (max-width: 600px) {
+    .gallery {
+        gap: 5px;
+    }
+}
+
 .gallery-item {
     position: relative;
     overflow: hidden;
