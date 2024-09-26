@@ -1,4 +1,4 @@
-// script.js
+// Navigasi berdasarkan Section
 
 const sections = document.querySelectorAll('.colorful-section');
 const navLinks = document.querySelectorAll('nav a');
@@ -23,20 +23,20 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// script hover gambar
+// Hover Aavatar
 
 
 const image = document.getElementById('avatar');
 
     image.addEventListener('mouseover', function() {
-            this.src = 'assets/img/man-hover.svg'; // Ganti gambar saat hover
+            this.src = 'assets/img/man-hover.svg';
         });
 
     image.addEventListener('mouseout', function() {
-            this.src = 'assets/img/man.svg'; // Kembali ke gambar awal
+            this.src = 'assets/img/man.svg';
         });
 
-// smooth tansisi
+// Smooth Transisi
 
 const section = document.querySelectorAll('colorful-section');
 const observer = new IntersectionObserver(entries => {
@@ -54,7 +54,7 @@ sections.forEach(section => {
 });
 
 
-// carousel
+// Carousel
 
 let currentIndex = 0;
 const items = document.querySelectorAll('.carousel-item');
@@ -82,10 +82,11 @@ function goToSlide(index) {
 }
 
 // Tampilkan slide pertama
+
 showSlide(currentIndex);
 
 
-// menghilangkan menu di device kecil
+// Menghilangkan navigasi di device kecil
 
 function toggleMenu() {
     const navMenu = document.querySelector('.nav');
@@ -94,5 +95,5 @@ function toggleMenu() {
 
 function closeMenu() {
     const navMenu = document.querySelector('.nav');
-    navMenu.classList.remove('active'); // Menghilangkan menu
+    navMenu.classList.remove('active');
 }
