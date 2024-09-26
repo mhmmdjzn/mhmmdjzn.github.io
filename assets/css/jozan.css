@@ -362,7 +362,7 @@ section.visible {
 
 
 #home {
-    background: linear-gradient(135deg, #fff, #fff);
+    background: #fff;
     color: #000;
     border: 8px solid #3357ff;
     border-radius: 8px;
