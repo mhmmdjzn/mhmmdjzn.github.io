@@ -364,31 +364,12 @@ section.visible {
 #home {
     background: #fff;
     color: #000;
-    border: 8px solid #3357ff;
+    border: 8px solid #5f5f6f;
     border-radius: 8px;
     padding: 30px;
     position: sticky;
     top: 10;
-    animation: colorChange 3s infinite;
     max-width: 100%;
-}
-
-@keyframes colorChange {
-    0% {
-        border-color: #ff5733;
-    }
-    25% {
-        border-color: #33ff57;
-    }
-    50% {
-        border-color: #3357ff;
-    }
-    75% {
-        border-color: #ff33a1;
-    }
-    100% {
-        border-color: #ff5733;
-    }
 }
 
 .home-container {
