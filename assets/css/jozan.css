@@ -591,6 +591,7 @@ section.visible {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 20px;
 }
 
 .progress {
@@ -598,7 +599,7 @@ section.visible {
     background-color: #d4d4d4;
     border-radius: 5px;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .progress-bar {
