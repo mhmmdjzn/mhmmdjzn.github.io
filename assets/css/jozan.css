@@ -667,9 +667,13 @@ section.visible {
     align-items: center;
     transition: top 0.3s;
     text-align: center;
-    ine-height: 0.6;
 }
 
+@media (max-width: 420px) {
+    .overlay p {
+        font-size: 0.6rem;
+    }
+}
 .gallery-item:hover .overlay {
     top: 0;
 }
