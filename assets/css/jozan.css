@@ -667,6 +667,7 @@ section.visible {
     align-items: center;
     transition: top 0.3s;
     text-align: center;
+    ine-height: 0.6;
 }
 
 .gallery-item:hover .overlay {
