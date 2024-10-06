@@ -394,6 +394,12 @@ section.visible {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 400px) {
+    .home-info {
+        padding: 20px 10px;
+    }
+}
+
 .home-my-info {
     margin-bottom: 20px;
     width: 100%;
