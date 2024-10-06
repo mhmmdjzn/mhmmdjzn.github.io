@@ -362,9 +362,9 @@ section.visible {
 
 
 #home {
-    background: #fff;
+    background: #d4a5ff;
     color: #000;
-    border: 8px solid #5f5f6f;
+    border: 8px solid #d4a5ff;
     border-radius: 8px;
     padding: 30px;
     position: sticky;
