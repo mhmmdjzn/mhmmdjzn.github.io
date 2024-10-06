@@ -450,7 +450,7 @@ section.visible {
 
 
 #about {
-    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    background: linear-gradient(135deg, #d4a5ff, #d4a5ff);
 }
 
 .about-container {
@@ -477,12 +477,24 @@ section.visible {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #fff4e1;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 15px;
+    padding: 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 @media (max-width: 800px) {
     .about-info {
-        width: 100%;
+        width: 95%;
+        align-self: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .about-info {
+        width: 92%;
         align-self: center;
         justify-content: center;
     }
