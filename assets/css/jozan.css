@@ -382,7 +382,11 @@ section.visible {
 
 .home-info {
     width: 65%;
-}
+    background-color: #fff4e1;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 8px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 .home-my-info {
     margin-bottom: 20px;
@@ -390,17 +394,20 @@ section.visible {
 }
 .home-my-info p {
     margin: 0px;
+    color: #4d4d4d;
 }
 
 .home-my-info h1 {
     margin-top: 1px;
     margin-bottom: 1px;
+    color: #4d4d4d;
 }
 
 .colorful-section h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    color: #4d4d4d;
 }
 
 .home-avatar-image {
