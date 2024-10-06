@@ -191,6 +191,12 @@ h1 {
     }
 }
 
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
 h2 {
     font-size: 2rem;
 }
@@ -404,6 +410,7 @@ section.visible {
     margin-bottom: 20px;
     width: 100%;
 }
+
 .home-my-info p {
     margin: 0px;
     color: #4d4d4d;
@@ -498,6 +505,14 @@ section.visible {
         align-self: center;
         justify-content: center;
     }
+}
+
+.about-info p {
+    color: #4d4d4d;
+}
+
+.about-info h2 {
+    color: #4d4d4d;
 }
 
 .about-my-image-container {
