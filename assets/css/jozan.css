@@ -525,11 +525,20 @@ section.visible {
 
 @media (max-width: 800px) {
     .about-my-image-container {
-        width: 100%;
+        width: 95%;
         align-self: center;
         justify-content: center;
     }
 }
+
+@media (max-width: 420px) {
+    .about-my-image-container {
+        width: 92%;
+        align-self: center;
+        justify-content: center;
+    }
+}
+
 
 .about-my-image {
     width: 35%;
@@ -556,6 +565,10 @@ section.visible {
   padding-right: 0px;
 }
 
+.about-my-image img {
+    border: 8px solid #fff4e1;
+    border-radius: 15px;
+}
 
 @media (max-width: 768px) {
     .my-image {
