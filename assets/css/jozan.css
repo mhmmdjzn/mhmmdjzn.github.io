@@ -319,7 +319,7 @@ section.visible {
     width: 40px;
     height: 40px;
     gap: 20px;
-    background-color: #007bff;
+    background-color: #d4a5ff;
     color: #fff;
     border-radius: 50%;
     text-decoration: none;
@@ -389,7 +389,7 @@ section.visible {
     width: 65%;
     background-color: #fff4e1;
     border: 1px solid rgba(204, 204, 204, 0.8);
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 20px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -409,7 +409,7 @@ section.visible {
     color: #4d4d4d;
 }
 
-.colorful-section h2 {
+.home-my-info h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
