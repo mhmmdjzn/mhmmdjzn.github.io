@@ -140,7 +140,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #fc5c7d;
+    background-color: #fff4e1;
+    border-radius: 15px;
+    border: 1px solid #d4a5ff;
 }
 
 nav a {
@@ -155,11 +157,14 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #007bff;
+    background-color: #d4a5ff;
     color: white;
     border-radius: 15px;
 }
 
+nav a.active:hover {
+    color: black;
+}
 
 /* All Settings */
 
