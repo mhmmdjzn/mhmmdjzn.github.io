@@ -157,7 +157,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #d4a5ff;
+    background-color: #f8bbd0;
     color: white;
     border-radius: 15px;
 }
@@ -325,7 +325,7 @@ section.visible {
     width: 40px;
     height: 40px;
     gap: 20px;
-    background-color: #d4a5ff;
+    background-color: #f8bbd0;
     color: #fff;
     border-radius: 50%;
     text-decoration: none;
@@ -393,7 +393,7 @@ section.visible {
 
 .home-info {
     width: 65%;
-    background-color: #fff4e1;
+    background-color: #f8bbd0;
     border: 1px solid rgba(204, 204, 204, 0.8);
     border-radius: 15px;
     padding: 20px 20px;
@@ -508,7 +508,7 @@ section.visible {
 }
 
 .about-info p {
-    color: #4d4d4d;
+    color: #000;
 }
 
 .about-info h2 {
@@ -525,7 +525,7 @@ section.visible {
 
 @media (max-width: 800px) {
     .about-my-image-container {
-        width: 95%;
+        width: 98%;
         align-self: center;
         justify-content: center;
     }
@@ -533,7 +533,7 @@ section.visible {
 
 @media (max-width: 420px) {
     .about-my-image-container {
-        width: 92%;
+        width: 94%;
         align-self: center;
         justify-content: center;
     }
