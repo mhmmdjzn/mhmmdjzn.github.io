@@ -453,7 +453,7 @@ section.visible {
 }
 
 .social-icon:hover {
-    background-color: #39fc32;
+    background-color: #6cb49e;
     transform: scale(1.1);
 }
 
@@ -991,7 +991,7 @@ button {
 }
 
 .contactme-icon:hover {
-    background-color: #39fc32;
+    background-color: #6cb49e;
     transform: scale(1.1);
 }
 
